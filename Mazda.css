@@ -1,0 +1,17 @@
+/* Estilos específicos para Mazda */
+body {
+    background-color: #0033cc; /* Azul Mazda */
+    color: white;
+}
+
+header {
+    background-color: #001a66;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+a {
+    color: #cce0ff;
+}

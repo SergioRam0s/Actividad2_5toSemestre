@@ -1,0 +1,17 @@
+/* Estilos específicos para Mitsubishi */
+body {
+    background-color: #bd1d1d; /* Rojo Mitsubishi */
+    color: white;
+}
+
+header {
+    background-color: #cf3434;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+a {
+    color: #ffcccc;
+}

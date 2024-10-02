@@ -1,62 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de Inicio</title>
+    <title>Autos Japoneses y el Nacimiento del Tuning</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
-        <h1>Autos Japoneses y el nacimiento del Tunning.</h1>
-    </header>
-    <hr>
-
-    <main>
-        <h1>Inicios</h1>
-        <h3>Algo de Historia...</h3>
-        <p>En el país del sol naciente, una vez terminada la segunda guerra mundial, comenzó el boom de la industría automotriz, hasta los años de 1970's se comenzo a dar una tribu urbana en Japón, Los Bōsōzoku. Entre cuál la velocidad y los vehículos extravagantes eran su sello representativo. Estas pandillas se movían en grupo y haciendo destrozos a lo largo de las ciudades donde habitaban. Las muertes ocacionadas por por los accidentes eran constantes y se les dió a ellos la responsabilidad. Ante esto y en 1989, la asociación de fabricantes japoneses hicieron un acuerdo de caballeros no escrito: Limitar todos los vehiculos a 180km/hr o un limite de 276 caballos de fuerza. Es por eso que los autos de todos los fabricantes tienen un limite de 180km/hr en todos sus velocímetros. </p>
-
-        <!-- Aquí va una imagen referente a los Bōsōzoku/Pacto de caballeros -->
-
-        <p>
-            Para el inicio de la década de 1990, la tasa de accidentes automovílisticos disminuyo considerablemente, pero no porque los carros fueran ahora limítados, síno por nuevas tecnologías de seguridad como la mejora de los frenos que buscaban innovar en cada uno de sus modelos. El hecho que los autos fueran limitados haciendo cumplir el pacto de caballeros a simple vista no significo que las empresas desarrollaran sus modelos lento, sino que sólo estaban limitados. Es aquí donde comienza la historia de los talleres más prestigiosos a nivel mundial:
-            
-            <h3>Top Secret</h3>
-
-            <p>Kazuhiko “Smokey” Nagata nació en Japón en febrero de 1963 y creció con una pasión a los autos, antes de fundar la empresa Top Secret, trabajo para diferentes talleres donde poco a poco fue desarrollando su talento para trabajar motores de autos deportivos, se quedaba tiempo extra para poder trabajar su propio automovil con las herramientas de los talleres, manteniendolo como un secreto y de ahí tomando la inspiracion para el nombre de su propio taller, Top Secret.</p>
-
-            <p>En 1991 comenzo como un humilde taller, pero la dedicación y habilidad de Smokey Nagata lo llevo a lo más alto del sector del país. Se cree también que al ser parte de un prestigioso club de carreras, el Midnight Club, su prestigio era muy alto, que alguien de un club tan difícil de acceder metiera mano en cualquier auto era un sello de calidad que lograría sacar la mayor potencia de tu motor.</p>
-
-            <!-- Aquí va la foto del supra -->
-
-            <p>La mayor hazaña que logro se dió en una noche de 1999, en Inglaterra, cuándo decidió mostrar el poder de su máxima creación, un Toyota Supra MK4 con una modificación de un motor V12, trayéndolo desde su país para ponerlo a prueba en una de las autopistas más largas del mundo, el objetivo: superar los 300 km/h, llegando al límite de los 317 km/h, el record mundial de la multa de velocidad más rápida. Resonando a todo el mundo y causando su arresto en el país, deportación y suspensión de la licencia para conducir había sido el precio a pagar para hacer que Top Secret sea reconocido a nivel mundial como el mejor taller de modificación de autos.</p>
-            
-            <!-- Foto del taller o Smokey encarcelado -->
-
-        </p>
-    </main>
-    <hr><!-- hr lo obtuve de un tutorial en Youtube, el cual es una linea para separar texto. -->
-    
-    <aside>
-        <h1>Principales Marcas de autos</h1>
         <nav>
-            <ul>
-                <h3><li><a href="pagina_2.html" title="Nissan">Nissan</a></li></h3>
-                <h3><li><a href="pagina_3.html" title="Mazda">Mazda</a></li></h3>
-                <h3><li><a href="pagina_4.html" title="Mitsubishi">Mitsubishi</a></li></h3>
-                <h3><li><a href="pagina_5.html" title="Toyota">Toyota</a></li></h3>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pagina_2.html">Nissan</a></li>
+                <li><a href="pagina_3.html">Mazda</a></li>
+                <li><a href="pagina_4.html">Mitsubishi</a></li>
+                <li><a href="pagina_5.html">Toyota</a></li>
             </ul>
         </nav>
+        <h1 class="main-title">Autos Japoneses y el Nacimiento del Tuning</h1>
+    </header>
+
+    <section class="intro-section">
+        <img src="path/to/imagen_bosozoku.jpg" alt="Imagen de los Bōsōzoku" class="intro-image">
+        <div class="intro-text">
+            <h2>Inicios del Tuning en Japón</h2>
+            <p>Después de la Segunda Guerra Mundial, Japón experimentó un crecimiento rápido en la industria automotriz. En los años 70 surgió una cultura urbana centrada en los autos rápidos y personalizados: los <strong>Bōsōzoku</strong>. Estas pandillas de jóvenes eran conocidas por sus modificaciones extravagantes y la búsqueda de la velocidad.</p>
+        </div>
+    </section>
+
+    <section class="history-section">
+        <h2>Historia de los Talleres de Modificación</h2>
+        <p>Con la introducción del Pacto de Caballeros en 1989, que limitaba la velocidad de los autos a 180 km/h, surgieron talleres como <strong>Top Secret</strong>, que llevaban los autos más allá de sus límites legales.</p>
+        <img src="path/to/supra_top_secret.jpg" alt="Supra modificado por Top Secret" class="history-image">
+        <p>El fundador de Top Secret, <strong>Kazuhiko "Smokey" Nagata</strong>, se convirtió en leyenda tras alcanzar los 317 km/h en las autopistas británicas con su Toyota Supra, lo que selló el prestigio del taller a nivel mundial.</p>
+    </section>
+
+    <aside class="brands-section">
+        <h2>Principales Marcas</h2>
+        <ul>
+            <li><a href="pagina_2.html">Nissan</a></li>
+            <li><a href="pagina_3.html">Mazda</a></li>
+            <li><a href="pagina_4.html">Mitsubishi</a></li>
+            <li><a href="pagina_5.html">Toyota</a></li>
+        </ul>
     </aside>
-    <hr>
-    
+
     <footer>
-        <h1>Footer</h1>
-        <p>Creo que esto seria lo ultimo de la pagina</p>
+        <p>&copy; 2024 Historia del Tuning Japonés | Todos los derechos reservados</p>
     </footer>
-
-
 
 </body>
 </html>

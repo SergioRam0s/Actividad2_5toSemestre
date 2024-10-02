@@ -1,0 +1,17 @@
+/* Estilos específicos para Nissan */
+body {
+    background-color: #e60000; /* Rojo Nissan */
+    color: white;
+}
+
+header {
+    background-color: #990000;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+a {
+    color: #ffcccc;
+}
