@@ -1,17 +1,72 @@
 /* Estilos específicos para Nissan */
 body {
-    background-color: #e60000; /* Rojo Nissan */
-    color: white;
+    background-color: #1C1C1C; /* Fondo oscuro para mayor contraste */
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #990000;
+    background-color: #990000; /* Rojo Nissan */
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffcccc; /* Color claro para los enlaces */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #fff; /* Efecto hover */
 }
 
 h1, h2 {
     color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-a {
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #ff6666; /* Un tono de rojo más claro */
+    border-bottom: 2px solid #ffcccc;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #990000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
     color: #ffcccc;
+    font-size: 14px;
+    margin: 0;
 }

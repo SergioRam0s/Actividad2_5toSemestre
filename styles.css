@@ -61,3 +61,38 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+.intro-section, .history-section {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+}
+
+.intro-image {
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.intro-text h2 {
+    color: #333;
+}
+
+.history-section img {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #cc0000;
+    font-size: 24px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
