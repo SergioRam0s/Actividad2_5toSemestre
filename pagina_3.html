@@ -3,23 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mazda</title>
+    <title>Mazda en las Carreras de los Años 90</title>
     <link rel="stylesheet" href="styles.css"> <!-- Estilos generales -->
     <link rel="stylesheet" href="mazda.css"> <!-- Estilos específicos de Mazda -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> <!-- Fuente diferente -->
+    <script src="script.js" defer></script> <!-- Archivo de JavaScript -->
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Volver al inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#rx7">Mazda RX-7</a></li>
+                <li><a href="#logros">Logros</a></li>
+                <li><a href="#wankel">Motor Wankel</a></li>
+                <li><a href="#comentarios">Comentarios</a></li>
             </ul>
         </nav>
-        <h1>Mazda - Modelos JDM</h1>
+        <div class="header-content">
+            <h1>Mazda en las Carreras de los Años 90</h1>
+            <p>Explora la historia del icónico Mazda RX-7 y su participación en las competencias internacionales más prestigiosas.</p>
+        </div>
     </header>
 
     <main>
-        <h2>RX-7</h2>
-        <p>Descripción del modelo RX-7.</p>
+        <!-- Introducción sobre Mazda en las carreras -->
+        <section id="historia" class="section">
+            <h2>Historia de Mazda en las Competencias de los Años 90</h2>
+            <p>Durante la década de los 90, Mazda se consolidó como una de las marcas más importantes en el mundo de las carreras automovilísticas. Su enfoque en la innovación tecnológica, especialmente con los motores rotativos Wankel, hizo que sus autos se destacaran en competencias de renombre internacional, logrando victorias en competiciones como Le Mans, el All-Japan GT Championship, y la Super GT.</p>
+        </section>
+
+        <!-- Información sobre el Mazda RX-7 -->
+        <section id="rx7" class="section">
+            <h2>Mazda RX-7: Un Ícono del Automovilismo</h2>
+            <p>El Mazda RX-7 fue sin duda uno de los autos más emblemáticos de Mazda. Equipado con el motor rotativo <strong>13B-REW</strong>, el RX-7 fue un innovador en la industria automovilística. Su diseño ligero y su equilibrio perfecto entre potencia y manejo lo convirtieron en el favorito de los pilotos y entusiastas del mundo del automovilismo.</p>
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/BMOSQB5IPNBZVLQLJH4TG66KUI.png" alt="Mazda RX-7" class="responsive-img" width="1000">
+            <p>El RX-7 compitió en diversas categorías, y su rendimiento excepcional en circuitos y competencias le otorgó un lugar en la historia del automovilismo.</p>
+
+            <h3>Curiosidades del RX-7</h3>
+            <ul>
+                <li>El RX-7 fue el primer auto de producción en usar el famoso motor rotativo bi-turbo 13B-REW, con dos turbocompresores secuenciales.</li>
+                <li>Ganó múltiples premios, incluyendo "Auto del Año".</li>
+                <li>Apareció en películas como la saga "Rápido y Furioso".</li>
+            </ul>
+        </section>
+
+        <!-- Tabla de los logros del Mazda RX-7 en las carreras -->
+        <section id="logros" class="section">
+            <h2>Logros del Mazda RX-7 en las Carreras</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Competencia</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1991</td>
+                        <td>24 Horas de Le Mans</td>
+                        <td>1er lugar (Categoría IMSA)</td>
+                    </tr>
+                    <tr>
+                        <td>1993</td>
+                        <td>All-Japan GT Championship</td>
+                        <td>Campeón</td>
+                    </tr>
+                    <tr>
+                        <td>1995</td>
+                        <td>Super GT</td>
+                        <td>2º lugar</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Información sobre el motor rotativo Wankel -->
+        <section id="wankel" class="section">
+            <h2>El Motor Rotativo Wankel</h2>
+            <p>El motor rotativo Wankel es uno de los inventos más innovadores de Mazda, caracterizado por su tamaño compacto, alta eficiencia y rendimiento en carreras. El <strong>13B-REW</strong> que equipaba al RX-7 fue el primer motor rotativo bi-turbo en producción masiva, permitiendo al RX-7 dominar circuitos internacionales.</p>
+
+            <h3>Ventajas del Motor Rotativo</h3>
+            <ul>
+                <li>Tamaño compacto que permite un mejor equilibrio de peso en los autos.</li>
+                <li>Revoluciones extremadamente altas, lo que brinda una aceleración rápida y constante.</li>
+                <li>Diseño mecánico más simple, con menos partes móviles comparado con los motores de pistón.</li>
+            </ul>
+        </section>
+
+        <!-- Botón para abrir el modal del formulario -->
+        <section id="comentarios" class="section">
+            <button id="openModal">Deja tu Comentario</button>
+        </section>
+
+        <!-- Modal para el formulario -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Deja tu Comentario</h3>
+                <form id="commentForm">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="comment">Comentario:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea><br>
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <p id="formMessage"></p> <!-- Mensaje para mostrar después del envío -->
+            </div>
+        </div>
     </main>
 
     <footer>
